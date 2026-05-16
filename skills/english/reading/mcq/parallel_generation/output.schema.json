@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["plan_summary_zh", "plan_focus_points", "questions"],
+  "properties": {
+    "plan_summary_zh": { "type": "string" },
+    "plan_focus_points": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "question_type",
+          "stem",
+          "option_a",
+          "option_b",
+          "option_c",
+          "option_d",
+          "correct_answer",
+          "explanation_zh",
+          "evidence_text",
+          "distractor_reviews",
+          "quality"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "question_type": { "type": "string", "enum": ["detail", "inference"] },
+          "stem": { "type": "string" },
+          "option_a": { "type": "string" },
+          "option_b": { "type": "string" },
+          "option_c": { "type": "string" },
+          "option_d": { "type": "string" },
+          "correct_answer": { "type": "string", "enum": ["A", "B", "C", "D"] },
+          "explanation_zh": { "type": "string" },
+          "evidence_text": { "type": "string" },
+          "learning_objective_zh": { "type": "string" },
+          "distractor_reviews": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["option_key", "why_wrong_zh"],
+              "properties": {
+                "option_key": { "type": "string", "enum": ["A", "B", "C", "D"] },
+                "why_wrong_zh": { "type": "string" },
+                "confusion_risk_zh": { "type": "string" }
+              }
+            }
+          },
+          "quality": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["score", "clarity_zh", "difficulty_match_zh", "uniqueness_zh", "issues_zh"],
+            "properties": {
+              "score": { "type": "integer", "minimum": 0, "maximum": 100 },
+              "clarity_zh": { "type": "string" },
+              "difficulty_match_zh": { "type": "string" },
+              "uniqueness_zh": { "type": "string" },
+              "issues_zh": { "type": "array", "items": { "type": "string" } }
+            }
+          }
+        }
+      }
+    }
+  }
+}

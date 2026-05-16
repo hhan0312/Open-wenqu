@@ -1,0 +1,43 @@
+{
+  "plan_summary_zh": "原文强调睡眠不足对青少年的影响；计划从记忆巩固与代谢废物清理两个角度平行出题。",
+  "plan_focus_points": ["sleep duration recommendation", "brain functions during sleep"],
+  "questions": [
+    {
+      "id": "q1",
+      "question_type": "detail",
+      "stem": "According to the passage, why do experts stress sleep for adolescents?",
+      "option_a": "Because sleep shortens homework time",
+      "option_b": "Because the brain consolidates memories and clears waste during sleep",
+      "option_c": "Because screen use improves learning efficiency",
+      "option_d": "Because adolescents need less sleep than adults",
+      "correct_answer": "B",
+      "explanation_zh": "细节题：原文直接指出睡眠期间大脑巩固记忆并清除代谢废物，这与专家强调睡眠重要性的逻辑一致。",
+      "evidence_text": "During sleep, the brain consolidates memories and clears waste products that build up while we are awake.",
+      "learning_objective_zh": "定位关键句并理解因果关系",
+      "distractor_reviews": [
+        {
+          "option_key": "A",
+          "why_wrong_zh": "与原文相反；原文并未说睡眠缩短作业时间。",
+          "confusion_risk_zh": "学生可能把“时间管理”当成主旨"
+        },
+        {
+          "option_key": "C",
+          "why_wrong_zh": "原文提到屏幕使用会减少睡眠，而非提高效率。",
+          "confusion_risk_zh": "把屏幕话题过度泛化"
+        },
+        {
+          "option_key": "D",
+          "why_wrong_zh": "原文建议青少年睡眠 8-10 小时，并未比较成人需求更低。",
+          "confusion_risk_zh": "用常识误判人群差异"
+        }
+      ],
+      "quality": {
+        "score": 86,
+        "clarity_zh": "题干指向明确，选项之间互斥性较好。",
+        "difficulty_match_zh": "与原题难度接近，考查点仍在原文可验证信息。",
+        "uniqueness_zh": "答案可由一句证据直接锁定。",
+        "issues_zh": []
+      }
+    }
+  ]
+}

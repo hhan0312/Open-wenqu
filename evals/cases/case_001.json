@@ -1,0 +1,19 @@
+{
+  "passage": "Teenagers often find it hard to balance schoolwork and rest. Sleep, however, is not wasted time. During sleep, the brain consolidates memories and clears waste products that build up while we are awake. Experts recommend eight to ten hours for adolescents, yet many students sleep far less because of homework and screen use.",
+  "source_question": {
+    "stem": "What does the passage mainly suggest about sleep for teenagers?",
+    "options": [
+      { "key": "A", "text": "Sleep is less important than homework." },
+      { "key": "B", "text": "Sleep helps the brain maintain healthy function." },
+      { "key": "C", "text": "Screen use has no effect on sleep." },
+      { "key": "D", "text": "Experts disagree about how much sleep is needed." }
+    ],
+    "correct_answer": "B",
+    "notes": "main idea / inference"
+  },
+  "curriculum_text": "能理解说明文的主旨大意与关键细节",
+  "expected_question_count": 3,
+  "expected_detail_count": 2,
+  "expected_inference_count": 1,
+  "min_avg_quality": 75
+}

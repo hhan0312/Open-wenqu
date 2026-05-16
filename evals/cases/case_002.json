@@ -1,0 +1,19 @@
+{
+  "passage": "Cities are experimenting with car-free zones to reduce pollution and noise. Pedestrians report feeling safer, while local shops worry about fewer visitors arriving by car. Planners argue that better public transit can offset the decline in car traffic.",
+  "source_question": {
+    "stem": "What concern do local shops show according to the passage?",
+    "options": [
+      { "key": "A", "text": "They fear fewer car-based customers." },
+      { "key": "B", "text": "They dislike public transit." },
+      { "key": "C", "text": "They want more parking lots." },
+      { "key": "D", "text": "They oppose pedestrian safety." }
+    ],
+    "correct_answer": "A",
+    "notes": "detail"
+  },
+  "curriculum_text": "能理解议论文中的观点对立与支持细节",
+  "expected_question_count": 3,
+  "expected_detail_count": 2,
+  "expected_inference_count": 1,
+  "min_avg_quality": 75
+}
